@@ -7,3 +7,8 @@ const menu = [
 
 const cashInRegister = 100;
 const orderQueue = [];
+
+function addNewPizza (pizzaObj){
+    menu.push(pizzaObj);
+}
+
