@@ -35,8 +35,6 @@ let person2: Person = {
   }
 }
 
-function displayInfo(person: Person) {
-  console.log(`${person.name} lives at${person.address?.street}`)
-}
-displayInfo(person1);
+//Array data type
+let ages: number[] = [100, 101]
 

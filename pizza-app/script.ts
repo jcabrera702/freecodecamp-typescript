@@ -1,6 +1,13 @@
 type Pizza = {
     name: string
     price: number
+    order?: Order
+}
+
+type Order = {
+    id: number
+    pizza: Pizza
+    status: string
 }
 
 const menu = [
