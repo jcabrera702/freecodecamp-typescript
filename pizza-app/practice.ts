@@ -36,5 +36,10 @@ let person2: Person = {
 }
 
 //Array data type
-let ages: number[] = [100, 101]
+let ages: number[] = [100, 101];
+
+let people: Person[] = [person1, person2];
+// let people: Array<Person> = [person1, person2]; //same as above just a different syntax 
+
+console.log(`Array of persons: ${people}`);
 
